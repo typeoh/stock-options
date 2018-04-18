@@ -75,7 +75,6 @@ class App extends Component {
   render() {
     if (this.state.loading) {
       // Loading State
-      console.log('loading');
       return (<LoadingSpinner/>)
     }
     return (

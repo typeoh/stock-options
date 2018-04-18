@@ -10,7 +10,6 @@ class StockSelect extends React.Component {
     return (
       <div>
         <div className="field">
-          <label className="heading align-left">Popular Stock Lists</label>
           <div className="control centered">
             <div className="select">
               <select onChange={this.props.handleChange}>

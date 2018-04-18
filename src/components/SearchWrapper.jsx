@@ -12,9 +12,13 @@ class SearchWrapper extends React.Component {
         <div className="container">
           <div className="columns">
             <div className="column is-half">
-              <StockSearch state={this.props.state} handleChange={this.props.handleChange}/>
-              <StockSelect state={this.props.state} handleChange={this.props.handleChange}/>
-              <FilterRadio state={this.props.state} handleCheck={this.props.handleCheck}/>
+              <div className="container form-wrapper">
+                <StockSearch state={this.props.state} handleChange={this.props.handleChange}/>
+              </div>
+              <div className="container form-wrappers">
+                <FilterRadio state={this.props.state} handleCheck={this.props.handleCheck}/>
+                <StockSelect state={this.props.state} handleChange={this.props.handleChange}/>
+              </div>
             </div>
           </div>
         </div>

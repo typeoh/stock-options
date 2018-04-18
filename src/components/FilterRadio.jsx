@@ -11,7 +11,10 @@ class FilterRadio extends React.Component {
           return <label className="filter-option"><input className="radio" type="radio" key={key} name="filterSearch" onChange={this.props.handleCheck} value={option.value}/>{option.label}</label>
         })
     return (
-      <div className="control filter-wrapper">{radioList}</div>
+      <div className="control filter-wrapper">
+      <label className="heading align-left">Popular Stock Lists</label>
+      {radioList}
+      </div>
     )
   }
 };
