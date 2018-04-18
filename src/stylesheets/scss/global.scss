@@ -1,0 +1,53 @@
+@import "_variables.scss";
+@import "_spinner.scss";
+
+//Layout
+.full-vertical {
+  height: 100vh;
+  align-content: center;
+  padding: 0 5%;
+}
+.control {
+  max-width: 200px;
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 40vh;
+}
+.description {
+  padding: 0 25%;
+}
+.centered {
+  text-align: center;
+}
+.field {
+  padding: 10px 0;
+}
+.container {
+  margin: auto;
+}
+.dropdown-wrapper {
+  text-align: left;
+}
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+.align-left {
+  text-align: left;
+}
+.filter-option {
+  padding: 0 10px 0 0;
+  margin-left: none;
+}
+.filter-wrapper {
+  display: inline;
+  white-space: nowrap;
+}
+.radio {
+  margin-right: 10px;
+}
